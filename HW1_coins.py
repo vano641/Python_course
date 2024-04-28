@@ -16,5 +16,5 @@ if count0 > count1:
     print(count1)
 if count0 < count1:
     print(count0)
-if count0 == count1:
+if count0 == count1: # условие не обязательно, нет в примере решения
     print(count0)
