@@ -26,9 +26,9 @@ def print_operation_table(operation, num_rows = 9 , num_columns = 9 ): # Мет�
                 res.append(operation(i,j)) # добавляем в результирующий список Результат работы Ф-ции operation(lambda)
             print(*res) # печатаем список в строку без скобок и запятых через пробел
             res.clear() # Очищаем список перед Следующей итерацией
-        return res # 
+         
 
-print_operation_table(lambda x, y: x * y, 3, 3)
+print_operation_table(lambda x, y: x * y)
 # print_operation_table(lambda x, y: x * y)
 # print_operation_table(lambda x, y: x * y, 9, 9)
 # print_operation_table(lambda x, y: x - y, 5, 5)
